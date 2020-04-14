@@ -16,5 +16,5 @@ cons facts = [
 ];
 
 function johnLennonFacts(facts) {
-  
+
 }
