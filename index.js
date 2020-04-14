@@ -21,5 +21,5 @@ let array = 0
     console.log(`${facts[i]} !!!`)
     console.log(--facts);
   }
-  return facts; 
+  return facts;
 }
