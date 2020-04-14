@@ -8,19 +8,20 @@ function theBeatlesPlay(mus, inst) {
   return foo;
 }
 
-cons facts = [
+var facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and a boy scout",
   "He hated the sound of his own voice"
 ];
 
-let num = 0
 
 function johnLennonFacts(facts) {
-  while (num < 5) {
-    console.log(`${facts[i]} !!!`)
-    facts++
+  const arr = [];
+  let i = 0
+  while (facts.length > i) {
+    arr.push(`${facts[i]} !!!`)
+    i++
   }
-  return facts;
+  return arr;
 }
