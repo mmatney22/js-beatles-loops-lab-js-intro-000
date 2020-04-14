@@ -1,6 +1,8 @@
 // add solution here
 var foo = [];
 
-function theBeatlesPlay(musicians, instruments) {
-
+function theBeatlesPlay(mus, inst) {
+  for (i = 0, i < mus.length, i++)
+  foo.push(`${mus[i]} plays `);
+  return
 }
