@@ -15,10 +15,11 @@ cons facts = [
   "He hated the sound of his own voice"
 ];
 
-function johnLennonFacts(facts) {
-let facts = 0
-  while (facts < ) {
+function johnLennonFacts(array) {
+let array = 0
+  while (facts < 5) {
     console.log(`${facts[i]} !!!`)
+    console.log(--facts);
   }
   return facts; 
 }
