@@ -15,7 +15,7 @@ cons facts = [
   "He hated the sound of his own voice"
 ];
 
-function johnLennonFacts(array) {
+function johnLennonFacts(facts) {
 let array = 0
   while (facts < 5) {
     console.log(`${facts[i]} !!!`)
