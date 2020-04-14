@@ -1,5 +1,6 @@
 // add solution here
-var [];
+var foo = [];
+
 function theBeatlesPlay(musicians, instruments) {
 
 }
