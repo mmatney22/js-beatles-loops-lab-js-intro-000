@@ -3,7 +3,7 @@ var foo = [];
 
 function theBeatlesPlay(mus, inst) {
   for (i = 0; i < mus.length; i++) {
-  foo.push(`${mus[i]} plays `);
+  foo.push(`${mus[i]} plays ${inst[i]}.`);
   }
-  return
+  return foo;
 }
