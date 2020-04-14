@@ -17,7 +17,7 @@ cons facts = [
 
 function johnLennonFacts(facts) {
 let i = 0
-  while (facts < 5) {
+  while (i < 5) {
     console.log(`${facts[i]} !!!`)
     console.log(--facts);
   }
